@@ -1,0 +1,568 @@
+.login-page {
+  background-color: #d6e1f5;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.login-page .div {
+  background-color: #d6e1f5;
+  overflow: hidden;
+  width: 402px;
+  height: 874px;
+  position: relative;
+}
+
+.login-page .overlap {
+  position: absolute;
+  width: 279px;
+  height: 524px;
+  top: 71px;
+  left: 62px;
+}
+
+.login-page .group {
+  position: absolute;
+  width: 279px;
+  height: 383px;
+  top: 141px;
+  left: 0;
+}
+
+.login-page .logo-PI-SCHOOL {
+  position: absolute;
+  width: 273px;
+  height: 152px;
+  top: 0;
+  left: 6px;
+  object-fit: cover;
+}
+
+.login-page .text-wrapper {
+  position: absolute;
+  top: 160px;
+  left: 101px;
+  font-family: "Kadwa", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .overlap-group-wrapper {
+  position: absolute;
+  width: 126px;
+  height: 16px;
+  top: 212px;
+  left: 26px;
+}
+
+.login-page .overlap-group {
+  position: relative;
+  width: 124px;
+  height: 16px;
+}
+
+.login-page .rectangle {
+  position: absolute;
+  width: 124px;
+  height: 11px;
+  top: 2px;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.login-page .p {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  font-family: "Kadwa", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .ellipse {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  top: 6px;
+  left: 4px;
+  background-color: #000000;
+  border-radius: 1px;
+}
+
+.login-page .text-wrapper-2 {
+  position: absolute;
+  top: 266px;
+  left: 41px;
+  font-family: "KoPub Batang-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.login-page .text-wrapper-3 {
+  position: absolute;
+  width: 58px;
+  top: 332px;
+  left: 40px;
+  font-family: "KoPub Batang-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Input Fields */
+.login-page .input-container {
+  position: absolute;
+  width: 204px;
+  height: 36px;
+  top: 282px;
+  left: 35px;
+}
+
+.login-page .input-field {
+  width: 100%;
+  height: 100%;
+  background-color: #83b5e742;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-family: "KoPub Batang-Regular", Helvetica;
+  font-size: 10px;
+  color: #000000;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.login-page .input-field:focus {
+  background-color: #83b5e780;
+  box-shadow: 0 0 5px rgba(131, 181, 231, 0.5);
+}
+
+.login-page .input-container-2 {
+  position: absolute;
+  width: 204px;
+  height: 36px;
+  top: 347px;
+  left: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.login-page .input-field-2 {
+  width: 100%;
+  height: 100%;
+  background-color: #83b5e742;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 35px 8px 12px;
+  font-family: "KoPub Batang-Regular", Helvetica;
+  font-size: 10px;
+  color: #000000;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.login-page .input-field-2:focus {
+  background-color: #83b5e780;
+  box-shadow: 0 0 5px rgba(131, 181, 231, 0.5);
+}
+
+.login-page .toggle-password {
+  position: absolute;
+  right: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.login-page .toggle-password:hover {
+  opacity: 1;
+}
+
+/* Checkbox Containers */
+.login-page .checkbox-container {
+  position: absolute;
+  top: 405px;
+  left: 45px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.login-page .checkbox-container-2 {
+  position: absolute;
+  top: 442px;
+  left: 45px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.login-page .checkbox {
+  width: 14px;
+  height: 14px;
+  border: 1.08px solid #000000;
+  background: transparent;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.login-page .checkbox:checked {
+  background-color: #182f53;
+  border-color: #182f53;
+}
+
+.login-page .checkbox:checked::after {
+  content: '✓';
+  position: absolute;
+  top: -2px;
+  left: 1px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.login-page .checkbox:hover {
+  border-color: #182f53;
+}
+
+.login-page .text-wrapper-4 {
+  font-family: "KoPub Batang-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.login-page .text-wrapper-4:hover {
+  color: #182f53;
+}
+
+.login-page .text-wrapper-5 {
+  position: absolute;
+  width: 114px;
+  top: 418px;
+  left: 64px;
+  opacity: 0.45;
+  font-family: "KoPub Batang-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .text-wrapper-6 {
+  font-family: "KoPub Batang-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.login-page .text-wrapper-6:hover {
+  color: #182f53;
+}
+
+.login-page .click-to-see-the {
+  position: absolute;
+  width: 114px;
+  top: 455px;
+  left: 64px;
+  opacity: 0.45;
+  font-family: "KoPub Batang-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.login-page .click-to-see-the:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.login-page .overlap-2 {
+  position: absolute;
+  width: 136px;
+  height: 53px;
+  top: 614px;
+  left: 133px;
+  border-radius: 18px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-page .overlap-2:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(24, 47, 83, 0.3);
+}
+
+.login-page .overlap-2:active {
+  transform: translateY(0);
+}
+
+.login-page .overlap-2:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.login-page .rectangle-5 {
+  position: absolute;
+  width: 136px;
+  height: 53px;
+  top: 0;
+  left: 0;
+  background-color: #182f53;
+  border-radius: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.login-page .overlap-2:hover .rectangle-5 {
+  background-color: #1a3458;
+}
+
+.login-page .text-wrapper-7 {
+  position: absolute;
+  top: 7px;
+  left: 37px;
+  font-family: "Kadwa", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  pointer-events: none;
+}
+
+.login-page .overlap-3 {
+  position: absolute;
+  width: 869px;
+  height: 121px;
+  top: 795px;
+  left: -125px;
+  background-color: #2a497d;
+  border-radius: 18px;
+}
+
+.login-page .text-wrapper-8 {
+  position: absolute;
+  top: 48px;
+  left: 148px;
+  font-family: "Instrument Serif", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .text-wrapper-9 {
+  position: absolute;
+  top: 36px;
+  left: 148px;
+  font-family: "Instrument Serif", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: 10% auto;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  animation: slideIn 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content.success {
+  border-left: 5px solid #4CAF50;
+}
+
+.modal-content.error {
+  border-left: 5px solid #f44336;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: "Kadwa", Helvetica;
+  font-size: 20px;
+  text-align: center;
+}
+
+.modal-content p {
+  color: #666;
+  font-family: "KoPub Batang-Regular", Helvetica;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.modal-content ul {
+  text-align: left;
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.modal-content li {
+  color: #666;
+  font-family: "KoPub Batang-Regular", Helvetica;
+  font-size: 12px;
+  margin: 8px 0;
+}
+
+.modal-content h3 {
+  color: #333;
+  font-family: "Kadwa", Helvetica;
+  font-size: 16px;
+  margin: 20px 0 10px 0;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.close:hover {
+  color: #000;
+}
+
+.modal-btn {
+  background-color: #182f53;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Kadwa", Helvetica;
+  font-size: 14px;
+  display: block;
+  margin: 20px auto 0;
+  transition: background-color 0.3s ease;
+}
+
+.modal-btn:hover {
+  background-color: #1a3458;
+}
+
+.terms-content {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { 
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Loading state */
+.loading {
+  position: relative;
+  overflow: hidden;
+}
+
+.loading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login-page .div {
+    width: 100vw;
+    padding: 0 20px;
+  }
+  
+  .modal-content {
+    width: 95%;
+    margin: 5% auto;
+    padding: 20px;
+  }
+}
