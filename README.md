@@ -1,2 +1,1 @@
-# Ubung-Ubung
 # Kecubung-Squad
