@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/CSS/LOGIN.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form class="login-form">
+            <div class="logo-section">
+                <div class="logo-wrapper   ">
+                    <img src="Image/logo-white-1.png" alt="Logo" class="logo" />
+                </div>
+
+            </div>
+
+            <div class="form">
+                <label for="username">User Name</label>
+                <input type="text" id="username" class="input" placeholder="Example: HANZS" />
+
+                <label for="idguru">ID Guru</label>
+                <input type="text" id="idguru" class="input" placeholder="Example: 0892121536" />
+
+                <label for="password">Password</label>
+                <input type="password" id="password" class="input" placeholder="Example: SmkPi2718927162734#" />
+
+                <a href="#" onclick="showPopup(); return false;" class="login-button">LOGIN</a>
+
+                <div id="popup" class="popup-blur">
+                    <div class="popup-box">
+                        <h3>Terms and Conditions</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
+                            faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus
+                            congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
+                            ultrices, ut faucibus orci tincidunt. Duis a quam nec dui luctus commodo. Quisque at erat eu
+                            libero consequat tempus. Quisque molestie convallis tempus. Ut suscipit orci sem, in
+                            facilisis sem pulvinar vel. Pellentesque habitant morbi tristique senectus et netus et
+                            malesuada fames ac turpis egestas.</p>
+                        <p>Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci
+                            tincidunt. Duis a quam nec dui luctus commodo. Quisque at erat eu libero consequat tempus.
+                            Quisque molestie convallis tempus. Ut suscipit orci sem, in facilisis sem pulvinar vel.
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas.</p>
+
+                        <button type="button" onclick="acceptTerms()">Accept</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="/JS/LOGIN.js"></script>
+</body>
+
+</html>

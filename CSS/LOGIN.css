@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #d9e1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+    background-color: #ececec;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 40px 40px;
+    gap: 15px;
+}
+
+.logo-wrapper {
+    position: relative;
+    width: relative;
+    padding: 20px 0;
+}
+
+.logo-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left:0;
+    width: 100%;
+    height: 4%;
+    background-color: #182153;
+    transform: translateY(-50%);
+    border-radius: 15px;
+    z-index: 0;
+}
+
+.logo {
+    position: relative;
+    z-index: 1;
+    width: 84px;
+    height: 85px;
+    object-fit: contain;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    background: #182f53;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 84px;
+    height: 85px;
+    object-fit: contain;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #d9d9d9;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #182f53;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.popup-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.popup-box {
+    background: white;
+    padding: 50px;
+    border-radius: 18px;
+    width: 110%;
+    max-width: 800px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+.popup-box h3 {
+    margin-bottom: 20px;
+    color: #182153;
+}
+.popup-box p {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 14px;
+}
+.popup-box button {
+    padding: 10px 20px;
+    background-color: #182153;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
