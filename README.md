@@ -1,3 +1,55 @@
+<div align="center">
+<h1>1. MAIN GUIDE RUNNING CODE</h1>
+</div>
+<h2>Read this before run the site :)</h2>
+<div>
+    <div>
+        <h3>step 1: install depedensi</h3>
+<p>composer install</p>
+<p>npm install</p>
+    </div>
+    <div>
+        <h3>step 2: database connection set up</h3>
+<p>cp .env.example .env</p>
+<p>php artisan key:generate</p>
+    </div>
+    <div>
+        <h3>step 3: database migration</h3>
+<p>php artisan migrate</p>
+<p>php artisan db:seed</p>
+        <div>
+            <h3>step 4: build for production</h3>
+<p>npm run build</p>
+        </div>
+</div>
+
+<div align="center">
+<h1>2. Additional Commands Used During Development</h1>
+</div>
+<div>
+    <p>composer create-project laravel/laravel nama-project</p>
+    <p>npm install</p>
+    <p>npm install --save-dev tailwindcss postcss autoprefixer</p>
+    <p>npx tailwindcss init -p</p>
+    <p>php artisan make:controller AuthController</p>
+    <p>php artisan make:model NamaModel -m</p>
+    <p>php artisan migrate</p>
+    <p>php artisan serve</p>
+    <p>npm run dev</p>
+    <p>npm run build</p>
+    <p>composer require laravel/breeze --dev</p>
+    <p>php artisan breeze:install</p>
+    <p>npm install</p>
+    <p>npm run dev</p>
+</div>
+
+<div align="center"> 
+<h1>HAVE FUN!!!!!!!</h1>
+</div>
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
